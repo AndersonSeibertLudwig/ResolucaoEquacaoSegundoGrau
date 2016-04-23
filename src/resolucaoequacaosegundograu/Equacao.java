@@ -115,6 +115,18 @@ public class Equacao extends JFrame{
         btnCalcular.addActionListener(new ActionListener() {
                 @Override
                 public void actionPerformed(ActionEvent arg0) {
+                    txtResolucao1.setText("");
+                    txtResolucao2.setText("");
+                    txtResolucao3.setText("");
+                    txtResolucao4.setText("");
+                    txtResolucao5.setText("");
+                    txtResolucao6.setText("");
+                    txtResolucao7.setText("");
+                    txtResolucao8.setText("");
+                    txtResolucao9.setText("");
+                    txtResolucao10.setText("");
+                    txtResolucao11.setText("");
+                    txtResolucao12.setText("");
                     try{
                         a = Double.parseDouble(txtA.getText());
                         b = Double.parseDouble(txtB.getText());
